@@ -4,6 +4,13 @@
 
 <!-- index.html  21 Nov 2019 03:44:50 GMT -->
 
+{{-- Steps for sweetalert
+    1:composer require realrashid/sweet-alert in terminal
+    2:RealRashid\SweetAlert\SweetAlertServiceProvider::class, in bootstrap/providers
+    3: @include('sweetalert::alert') in layout
+    4:php artisan sweetalert:publish in terminal
+--}}
+
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
@@ -21,6 +28,8 @@
 </head>
 
 <body>
+    @include('sweetalert::alert')
+
     <div class="loader"></div>
     <div id="app">
         <div class="main-wrapper main-wrapper-1">
