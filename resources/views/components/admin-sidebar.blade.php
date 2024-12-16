@@ -1,7 +1,7 @@
 <aside id="sidebar-wrapper">
     <div class="sidebar-brand">
         <a href="{{ route('dashboard') }}">
-            <span class="logo-name">CODE IT NEWS</span>
+            <span class="logo-name">NAGARAIN NEWS</span>
         </a>
     </div>
     <ul class="sidebar-menu">
